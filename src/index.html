@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,10 +17,28 @@
 
   <main>
     <div class="display">
+      <div class="display header">
+        <h2>Recent Scores</h2>
+        <input type="button" value="Refresh">
+      </div>
+      <ul class="display scores">
+        <li>Name: 100</li>
+        <li>Name: 90</li>
+        <li>Name: 80</li>
+        <li>Name: 70</li>
+        <li>Name: 60</li>
+        <li>Name: 50</li>
+      </ul>
     </div>
 
-    <div class="input-form">
-    </div>
+    <form action="" method="post">
+      <h2>Add your scores</h2>
+      <label for="your-name">Name:</label>
+      <input type="text" name="your-name" id="player-name" placeholder="Your name">
+      <label for="your-score">Score:</label>
+      <input type="text" name="your-score" id="player-score" placeholder="Your score">
+      <input type="button" value="Submit">
+    </form>
   </main>
 </body>
 
