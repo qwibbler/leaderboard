@@ -1,13 +1,33 @@
-import './style.css';
-// import Icon from './more.png';
+// import './style.css';
+import { show } from './show.js'
 
-function component() {
-  const element = document.createElement('div');
+const scores = [
+  {
+    name: 'name',
+    score: 100,
+  },
+  {
+    name: 'name',
+    score: 90,
+  },
+  {
+    name: 'name',
+    score: 80,
+  },
+  {
+    name: 'name',
+    score: 70,
+  },
+  {
+    name: 'name',
+    score: 60,
+  },
+  {
+    name: 'name',
+    score: 50,
+  },
+]
 
-   // Lodash, now imported by this script
-  element.innerHTML = "hi!!!!";
-
-  return element;
+window.onload = () => {
+  show(scores);
 }
-
-document.body.appendChild(component());
