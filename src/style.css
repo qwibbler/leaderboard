@@ -83,17 +83,27 @@ input {
 }
 
 .submit {
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
+  align-self: flex-end;
 }
 
 small {
   margin-top: 0.2rem;
   padding: 0.2rem;
+  text-align: end;
 }
 
 @media (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   main {
     grid-template-columns: 1fr;
     max-width: 34rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
