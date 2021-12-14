@@ -1,13 +1,44 @@
 import './style.css';
-// import Icon from './more.png';
+import showAll from './show-all.js';
+import addScore from './add-score.js';
 
-function component() {
-  const element = document.createElement('div');
+const submit = document.querySelector('.submit');
+const refresh = document.querySelector('.refresh');
+const scores = [
+  {
+    name: 'name',
+    score: 100,
+  },
+  {
+    name: 'name',
+    score: 90,
+  },
+  {
+    name: 'name',
+    score: 80,
+  },
+  {
+    name: 'name',
+    score: 70,
+  },
+  {
+    name: 'name',
+    score: 60,
+  },
+  {
+    name: 'name',
+    score: 50,
+  },
+];
 
-   // Lodash, now imported by this script
-  element.innerHTML = "hi!!!!";
+window.onload = () => {
+  showAll(scores);
+};
 
-  return element;
-}
+refresh.onclick = () => {
+  showAll(scores);
+};
 
-document.body.appendChild(component());
+submit.onclick = () => {
+  addScore(scores);
+};
