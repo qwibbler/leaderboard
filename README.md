@@ -9,7 +9,7 @@ This project is to practice:
 - Using ES6 modules to write modular JavaScript.
 - Using webpack to bundle JavaScript.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 <!-- Additional description about the project and its features. -->
 

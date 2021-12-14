@@ -18,8 +18,9 @@ body {
 
 h1 {
   color: #2e5266;
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
-  2px -2px 2px rgba(255, 255, 255, 0.9);
+  text-shadow:
+    -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 2px rgba(255, 255, 255, 0.9);
   margin: 2rem;
   font-size: 5rem;
 }
@@ -39,12 +40,13 @@ main {
   flex-direction: column;
 }
 
-h2 { 
+h2 {
   color: #2e5266;
   margin: 1.5rem auto;
   font-size: 3rem;
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
-  2px -2px 2px rgba(255, 255, 255, 0.9);
+  text-shadow:
+    -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 2px rgba(255, 255, 255, 0.9);
 }
 
 .display .header {
@@ -62,12 +64,12 @@ h2 {
 
 .button:hover {
   cursor: pointer;
-  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .button:focus {
   cursor: pointer;
-  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5), inset 1px 1px 5px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5), inset 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .form .header {
@@ -78,7 +80,7 @@ ul {
   width: 95%;
   margin: 1rem;
   border: 4px ridge #2e5266;
-  box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -101,7 +103,7 @@ li {
   width: 95%;
   margin: 1rem;
   border: 4px ridge #2e5266;
-  box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.5);
   padding: 1rem 2rem;
 }
 
@@ -125,10 +127,8 @@ small {
   padding: 0.2rem;
   border-radius: 0.2rem;
   background-color: #9fb1bd;
-  border: 2px groove #2e5266;;
+  border: 2px groove #2e5266;
 }
-
-
 
 @media (max-width: 900px) {
   main {
