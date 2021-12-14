@@ -1,7 +1,111 @@
-body {
-  background-color: bisque;
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
 }
 
+body {
+  background: #d3d0cb;
+}
+
+/* Used https://html-css-js.com/css/generator/ to generate styles */
+
 h1 {
-  color: blue;
+  color: #2e5266;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+  2px -2px 2px rgba(255, 255, 255, 0.9);
+  margin: 2rem;
+  font-size: 5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  max-width: 78rem;
+  margin: auto;
+  gap: 1rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 { 
+  color: #2e5266;
+  margin: 1.5rem auto;
+  font-size: 3rem;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+  2px -2px 2px rgba(255, 255, 255, 0.9);
+}
+
+.display .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin: auto;
+  padding: 0.5rem;
+  background-color: #2e5266;
+  color: #d3d0cb;
+  border-radius: 0.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
+}
+
+.button:focus {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5), inset 1px 1px 5px 1px rgba(0,0,0,0.5);
+}
+
+.form .header {
+  padding: 0 2.5rem;
+}
+
+ul {
+  width: 95%;
+  margin: 1rem;
+  border: 4px ridge #2e5266;
+  box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.5);
+}
+
+li {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.odd {
+  background-color: #9fb1bd;
+}
+
+.even {
+  background-color: #6e8897;
+}
+
+#form-div {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 1rem;
+  border: 4px ridge #2e5266;
+  box-shadow: 5px 5px 15px -3px rgba(0,0,0,0.5);
+  padding: 1rem 2rem;
+}
+
+label,
+input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.submit {
+  margin-top: 0.5rem;
 }

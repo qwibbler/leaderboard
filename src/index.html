@@ -8,6 +8,7 @@
 
   <title>Leaderboard</title>
   <meta name="author" content="Humaira Zaman">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -16,28 +17,32 @@
   </header>
 
   <main>
-    <div class="display">
+    <div class="display wrap">
       <div class="display header">
         <h2>Recent Scores</h2>
-        <input type="button" value="Refresh">
+        <input type="button" value="&#x21bb; Refresh" class="button refresh">
       </div>
       <ul class="display scores">
-        <li>Name: 100</li>
-        <li>Name: 90</li>
-        <li>Name: 80</li>
-        <li>Name: 70</li>
-        <li>Name: 60</li>
-        <li>Name: 50</li>
+        <li class="odd">Name: 100</li>
+        <li class="even">Name: 90</li>
+        <li class="odd">Name: 80</li>
+        <li class="even">Name: 70</li>
+        <li class="odd">Name: 60</li>
+        <li class="even">Name: 50</li>
       </ul>
     </div>
 
-    <form action="" method="post">
-      <h2>Add your scores</h2>
-      <label for="your-name">Name:</label>
-      <input type="text" name="your-name" id="player-name" placeholder="Your name">
-      <label for="your-score">Score:</label>
-      <input type="text" name="your-score" id="player-score" placeholder="Your score">
-      <input type="button" value="Submit">
+    <form class="form wrap" action="" method="post">
+      <div class="form header">
+        <h2>Add your scores</h2>
+      </div>
+      <div id="form-div">
+        <label for="your-name">Name:</label>
+        <input type="text" name="your-name" id="player-name" placeholder="Your name">
+        <label for="your-score">Score:</label>
+        <input type="text" name="your-score" id="player-score" placeholder="Your score">
+        <input type="button" value="Submit &#9094;" class="button submit">
+      </div>
     </form>
   </main>
 </body>
