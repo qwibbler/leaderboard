@@ -20,7 +20,7 @@ This project is to practice:
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://qwibbler.github.io/leaderboard/dist/)
 
 
 ## Getting Started
