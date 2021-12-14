@@ -1,5 +1,5 @@
 // import './style.css';
-import show from './show.js'
+import showAll from './show-all.js'
 import addScore from "./add-score.js";
 
 const submit = document.querySelector('.submit');
@@ -32,11 +32,11 @@ const scores = [
 ]
 
 window.onload = () => {
-  show(scores);
+  showAll(scores);
 }
 
 refresh.onclick = () => {
-  show(scores);
+  showAll(scores);
 }
 
 submit.onclick = () => {

@@ -1,4 +1,4 @@
-function show(scores) {
+function showAll(scores) {
   const board = document.querySelector('.scores');
   board.innerHTML = '';
   let rank = 1;
@@ -11,4 +11,4 @@ function show(scores) {
     rank += 1;
   });
 }
-export default show;
+export default showAll;
