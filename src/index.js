@@ -1,6 +1,9 @@
 // import './style.css';
-import { show } from './show.js'
+import show from './show.js'
+import addScore from "./add-score.js";
 
+const submit = document.querySelector('.submit');
+const refresh = document.querySelector('.refresh');
 const scores = [
   {
     name: 'name',
@@ -30,4 +33,12 @@ const scores = [
 
 window.onload = () => {
   show(scores);
+}
+
+refresh.onclick = () => {
+  show(scores);
+}
+
+submit.onclick = () => {
+  addScore(scores);
 }

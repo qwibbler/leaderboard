@@ -39,10 +39,11 @@
       </div>
       <div id="form-div">
         <label for="your-name">Name:</label>
-        <input type="text" name="your-name" id="player-name" placeholder="Your name">
+        <input type="text" name="your-name" id="player-name" placeholder="Your name" required>
         <label for="your-score">Score:</label>
-        <input type="text" name="your-score" id="player-score" placeholder="Your score">
+        <input type="number" name="your-score" id="player-score" placeholder="Your score" required>
         <input type="button" value="Submit &#9094;" class="button submit">
+        <small class="invisible">Please add both name and score to record your entry.</small>
       </div>
     </form>
   </main>

@@ -1,4 +1,4 @@
-export function show(scores) {
+function show(scores) {
   const board = document.querySelector('.scores');
   board.innerHTML = '';
   let rank = 1;
@@ -11,3 +11,4 @@ export function show(scores) {
     rank += 1;
   });
 }
+export default show;

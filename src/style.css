@@ -6,6 +6,10 @@
   font-size: 1rem;
 }
 
+.invisible {
+  display: none !important;
+}
+
 body {
   background: #d3d0cb;
 }
@@ -107,9 +111,24 @@ input {
   font-size: 1.5rem;
 }
 
+input {
+  text-transform: capitalize;
+  background-color: #9fb1bd;
+}
+
 .submit {
   margin-top: 0.5rem;
 }
+
+small {
+  margin-top: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: #9fb1bd;
+  border: 2px groove #2e5266;;
+}
+
+
 
 @media (max-width: 900px) {
   main {
