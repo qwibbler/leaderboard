@@ -4,10 +4,10 @@
 
 > This is a leaderboard showing all the top players, where you can enter your own score, and see how you rank against the other players.
 This project is to practice:
-- Using callbacks and promises.
-- Learning how to use proper ES6 syntax.
-- Using ES6 modules to write modular JavaScript.
-- Using webpack to bundle JavaScript.
+> - Using callbacks and promises.
+> - Learning how to use proper ES6 syntax.
+> - Using ES6 modules to write modular JavaScript.
+> - Using webpack to bundle JavaScript.
 
 ![screenshot](./screenshot.png)
 

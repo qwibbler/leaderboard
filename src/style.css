@@ -10,17 +10,7 @@
   display: none !important;
 }
 
-body {
-  background: #d3d0cb;
-}
-
-/* Used https://html-css-js.com/css/generator/ to generate styles */
-
 h1 {
-  color: #2e5266;
-  text-shadow:
-    -2px 2px 4px rgba(0, 0, 0, 0.5),
-    2px -2px 2px rgba(255, 255, 255, 0.9);
   margin: 2rem;
   font-size: 5rem;
 }
@@ -32,7 +22,6 @@ main {
   max-width: 78rem;
   margin: auto;
   gap: 1rem;
-  transition: all 0.5s ease;
 }
 
 .wrap {
@@ -41,12 +30,8 @@ main {
 }
 
 h2 {
-  color: #2e5266;
   margin: 1.5rem auto;
   font-size: 3rem;
-  text-shadow:
-    -2px 2px 4px rgba(0, 0, 0, 0.5),
-    2px -2px 2px rgba(255, 255, 255, 0.9);
 }
 
 .display .header {
@@ -57,19 +42,6 @@ h2 {
 .button {
   margin: auto;
   padding: 0.5rem;
-  background-color: #2e5266;
-  color: #d3d0cb;
-  border-radius: 0.5rem;
-}
-
-.button:hover {
-  cursor: pointer;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
-}
-
-.button:focus {
-  cursor: pointer;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5), inset 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .form .header {
@@ -80,7 +52,6 @@ ul {
   width: 95%;
   margin: 1rem;
   border: 4px ridge #2e5266;
-  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -89,12 +60,8 @@ li {
   padding: 1rem 2rem;
 }
 
-.odd {
-  background-color: #9fb1bd;
-}
-
 .even {
-  background-color: #6e8897;
+  background-color: lightgray;
 }
 
 #form-div {
@@ -102,8 +69,6 @@ li {
   flex-direction: column;
   width: 95%;
   margin: 1rem;
-  border: 4px ridge #2e5266;
-  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.5);
   padding: 1rem 2rem;
 }
 
@@ -115,7 +80,6 @@ input {
 
 input {
   text-transform: capitalize;
-  background-color: #9fb1bd;
 }
 
 .submit {
@@ -125,9 +89,6 @@ input {
 small {
   margin-top: 0.2rem;
   padding: 0.2rem;
-  border-radius: 0.2rem;
-  background-color: #9fb1bd;
-  border: 2px groove #2e5266;
 }
 
 @media (max-width: 900px) {
