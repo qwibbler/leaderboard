@@ -1,4 +1,4 @@
-function showScore(name, score, rank) {
+const showScore = (name, score, rank) => {
   const board = document.querySelector('.scores');
   board.innerHTML += `
   <li class="${rank % 2 === 0 ? 'even' : 'odd'}">
@@ -7,7 +7,7 @@ function showScore(name, score, rank) {
   `;
 }
 
-function addScore(scores) {
+const addScore = (scores) => {
   const inputName = document.querySelector('#player-name');
   const inputScore = document.querySelector('#player-score');
   const small = document.querySelector('small');

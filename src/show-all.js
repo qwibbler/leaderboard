@@ -1,4 +1,4 @@
-function showAll(scores) {
+const showAll = (scores) => {
   const board = document.querySelector('.scores');
   board.innerHTML = '';
   let rank = 1;
