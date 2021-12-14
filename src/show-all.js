@@ -10,5 +10,5 @@ const showAll = (scores) => {
     `;
     rank += 1;
   });
-}
+};
 export default showAll;

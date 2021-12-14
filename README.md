@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 1. `cd` into the repository's folder.
 1. Enter `npm install` into the terminal.
 1. Enter `npm run build` into the terminal.
-1. Run the dist\index.html file.
+1. Run the dist/index.html file.
 
 ## Authors
 

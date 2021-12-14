@@ -5,7 +5,7 @@ const showScore = (name, score, rank) => {
     ${rank}.&emsp;${name}:&emsp;${score}
   </li>
   `;
-}
+};
 
 const addScore = (scores) => {
   const inputName = document.querySelector('#player-name');
@@ -22,5 +22,5 @@ const addScore = (scores) => {
     small.classList.remove('invisible');
   }
   return { name: inputName, score: inputScore };
-}
+};
 export default addScore;
