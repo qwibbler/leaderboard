@@ -27,6 +27,7 @@ main {
   max-width: 78rem;
   margin: auto;
   gap: 1rem;
+  transition: all 0.5s ease;
 }
 
 .wrap {
@@ -108,4 +109,11 @@ input {
 
 .submit {
   margin-top: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+  }
 }
