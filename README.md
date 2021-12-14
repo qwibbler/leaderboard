@@ -25,25 +25,20 @@ This project is to practice:
 
 ## Getting Started
 
-<!-- **This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.** -->
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Node.js
 
 ### Setup
+- Clone this repository.
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. On your computer, open your terminal 
+1. `cd` into the repository's folder.
+1. Enter `npm install` into the terminal.
+1. Enter `npm run build` into the terminal.
+1. Run the dist\index.html file.
 
 ## Authors
 
@@ -52,12 +47,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@qwibbler](https://github.com/qwibbler)
 - Twitter: [@hmemaz](https://twitter.com/hmemaz)
 - LinkedIn: [Humaira Zaman](https://www.linkedin.com/in/hmemaz1994/)
-<!-- 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 ## 🤝 Contributing
 
