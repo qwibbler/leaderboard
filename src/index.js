@@ -10,5 +10,5 @@ refresh.onclick = showAll;
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  addScore()
+  addScore();
 });

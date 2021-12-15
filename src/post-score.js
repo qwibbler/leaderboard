@@ -3,13 +3,13 @@ const postScore = async (user, score) => {
     method: 'POST',
     body: JSON.stringify(
       {
-        user: user,
-        score: score
-      }
+        user,
+        score,
+      },
     ),
-    headers: { 'Content-Type': 'application/json' }
+    headers: { 'Content-Type': 'application/json' },
   });
   const message = await response.json();
   return message;
-}
+};
 export default postScore;

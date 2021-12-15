@@ -4,5 +4,5 @@ const getScores = async () => {
   });
   const scores = await response.json();
   return scores.result;
-}
+};
 export default getScores;

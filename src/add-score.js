@@ -1,13 +1,13 @@
-import postScore from "./post-score.js";
-import getScores from "./get-scores.js";
-import showScore from "./show-score.js";
+import postScore from './post-score.js';
+import getScores from './get-scores.js';
+import showScore from './show-score.js';
 
 const addScore = async () => {
   const inputName = document.querySelector('#player-name');
   const inputScore = document.querySelector('#player-score');
   const small = document.querySelector('small');
 
-  const message = await postScore(inputName.value, inputScore.value);
+  const message = await postScore(inputName.value, parseInt(inputScore.value));
   const scores = await getScores();
   const rank = scores.length;
 
@@ -23,7 +23,7 @@ const addScore = async () => {
   inputName.value = '';
   inputScore.value = '';
   setTimeout(() => {
-    small.classList.add("invisible")
+    small.classList.add('invisible');
   }, 3000);
 
   return { name: inputName, score: inputScore };

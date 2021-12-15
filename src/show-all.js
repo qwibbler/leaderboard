@@ -4,10 +4,10 @@ import showScore from './show-score.js';
 const clearBoard = () => {
   const board = document.querySelector('.scores');
   board.innerHTML = '';
-}
+};
 
 const showAll = async () => {
-  clearBoard()
+  clearBoard();
   const scores = await getScores();
   let rank = 1;
   scores.forEach((score) => {
