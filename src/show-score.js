@@ -1,8 +1,8 @@
-const showScore = (name, score, rank) => {
+const showScore = (user, score, rank) => {
   const board = document.querySelector('.scores');
   board.innerHTML += `
   <li>
-    ${rank}.&emsp;${name}:&emsp;${score}
+    ${rank}.&emsp;${user}:&emsp;${score}
   </li>
   `;
 };
