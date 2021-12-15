@@ -1,26 +1,31 @@
-const showScore = (name, score, rank) => {
-  const board = document.querySelector('.scores');
-  board.innerHTML += `
-  <li class="${rank % 2 === 0 ? 'even' : 'odd'}">
-    ${rank}.&emsp;${name}:&emsp;${score}
-  </li>
-  `;
-};
+import postScore from './post-score.js';
+import getScores from './get-scores.js';
+import showScore from './show-score.js';
 
-const addScore = (scores) => {
+const addScore = async () => {
   const inputName = document.querySelector('#player-name');
   const inputScore = document.querySelector('#player-score');
   const small = document.querySelector('small');
-  if (inputName.value && inputScore.value) {
-    small.classList.add('invisible');
-    scores.push({ name: inputName.value, score: inputScore.value });
-    const rank = scores.length;
+
+  const message = await postScore(inputName.value, parseInt(inputScore.value, 10));
+  const scores = await getScores();
+  const rank = scores.length;
+
+  if (message.result) {
     showScore(inputName.value, inputScore.value, rank);
-    inputName.value = '';
-    inputScore.value = '';
+    small.innerHTML = message.result;
+    small.style.backgroundColor = 'lightgreen';
   } else {
-    small.classList.remove('invisible');
+    small.innerHTML = message.message;
+    small.style.backgroundColor = 'red';
   }
+
+  inputName.value = '';
+  inputScore.value = '';
+  setTimeout(() => {
+    small.classList.add('invisible');
+  }, 3000);
+
   return { name: inputName, score: inputScore };
 };
 export default addScore;
