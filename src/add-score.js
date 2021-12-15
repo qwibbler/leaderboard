@@ -7,7 +7,7 @@ const addScore = async () => {
   const inputScore = document.querySelector('#player-score');
   const small = document.querySelector('small');
 
-  const message = await postScore(inputName.value, parseInt(inputScore.value));
+  const message = await postScore(inputName.value, parseInt(inputScore.value, 10));
   const scores = await getScores();
   const rank = scores.length;
 
