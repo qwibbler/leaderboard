@@ -1,13 +1,14 @@
 import showScore from "./show-score.js";
+import postScore from "./post-score.js";
 
-const addScore = (scores) => {
+const addScore = () => {
   const inputName = document.querySelector('#player-name');
   const inputScore = document.querySelector('#player-score');
   const small = document.querySelector('small');
   if (inputName.value && inputScore.value) {
+    postScore(inputName.value, inputScore.value)
     small.classList.add('invisible');
-    scores.push({ name: inputName.value, score: inputScore.value });
-    const rank = scores.length;
+    const rank = 1;
     showScore(inputName.value, inputScore.value, rank);
     inputName.value = '';
     inputScore.value = '';
