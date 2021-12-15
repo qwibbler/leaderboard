@@ -12,6 +12,6 @@ const postScore = async (user, score) => {
     }
   });
   const message = await response.json();
-  return console.log(message);
+  return message;
 }
 export default postScore;

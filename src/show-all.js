@@ -11,7 +11,7 @@ const showAll = async () => {
   const scores = await getScores();
   let rank = 1;
   scores.forEach((score) => {
-    showScore(score.name, score.score, rank);
+    showScore(score.user, score.score, rank);
     rank += 1;
   });
 };

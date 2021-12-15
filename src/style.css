@@ -64,7 +64,7 @@ li:nth-child(even) {
   background-color: lightgray;
 }
 
-#form-div {
+form {
   display: flex;
   flex-direction: column;
   width: 95%;
