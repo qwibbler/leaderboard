@@ -4,7 +4,7 @@ const postScore = async (user, score) => {
     body: JSON.stringify(
       {
         user: user,
-        score: 42
+        score: score
       }
     ),
     headers: {
