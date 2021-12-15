@@ -60,7 +60,7 @@ li {
   padding: 1rem 2rem;
 }
 
-.even {
+li:nth-child(even) {
   background-color: lightgray;
 }
 

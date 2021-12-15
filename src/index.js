@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 import showAll from './show-all.js';
 import addScore from './add-score.js';
 
