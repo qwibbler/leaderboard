@@ -78,10 +78,6 @@ input {
   font-size: 1.5rem;
 }
 
-input {
-  text-transform: capitalize;
-}
-
 .submit {
   margin: 0.5rem 0;
   align-self: flex-end;

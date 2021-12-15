@@ -7,9 +7,7 @@ const postScore = async (user, score) => {
         score: score
       }
     ),
-    headers: {
-      'Content-Type': 'application/json'
-    }
+    headers: { 'Content-Type': 'application/json' }
   });
   const message = await response.json();
   return message;

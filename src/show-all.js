@@ -14,5 +14,6 @@ const showAll = async () => {
     showScore(score.user, score.score, rank);
     rank += 1;
   });
+  return rank;
 };
 export default showAll;
