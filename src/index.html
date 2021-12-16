@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Leaderboard</title>
+  <meta name="author" content="Humaira Zaman">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+
+  <main>
+    <div class="display wrap">
+      <div class="display header">
+        <h2>Recent Scores</h2>
+        <div class="big-btn"><input type="button" value="&#x21bb; Refresh" class="button refresh"></div>
+      </div>
+      <ul class="display scores">
+      </ul>
+    </div>
+
+    <div class="form wrap">
+      <div class="form header">
+        <h2>Add your scores</h2>
+      </div>
+      <form class="form input" action="?" method="post">
+        <label for="player-name">Name:</label>
+        <input type="text" name="your-name" id="player-name" class="text-input" placeholder="Your name" required>
+        <label for="player-score">Score:</label>
+        <input type="number" name="your-score" id="player-score" class="text-input" placeholder="Your score" required>
+        <div class="big-btn big-submit"><input type="submit" value="Submit &#9094;" class="button submit"></div>
+        <small></small>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>
