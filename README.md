@@ -9,7 +9,8 @@ This project is to practice:
 > - Using ES6 modules to write modular JavaScript.
 > - Using webpack to bundle JavaScript.
 
-![screenshot](./Screenshot2.png)
+![screenshot](./Screenshot.png)
+![screenshot](./Screenshot-mobile.png)
 
 <!-- Additional description about the project and its features. -->
 
@@ -20,7 +21,7 @@ This project is to practice:
 
 ## Live Demo
 
-[Live Demo Link](https://qwibbler.github.io/leaderboard/dist/)
+[Live Demo Link](https://qwibbler.github.io/leaderboard/)
 
 
 ## Getting Started
