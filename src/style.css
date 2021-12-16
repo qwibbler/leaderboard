@@ -21,27 +21,27 @@ h1 {
   margin: 2rem;
   font-size: 5rem;
   color: #70869d;
-  text-shadow: 
-      -1px -1px 1px #ffffff, 
-      0px 1px 0 #2e2e2e, 
-      0px 2px 0 #2c2c2c, 
-      0px 3px 0 #2a2a2a, 
-      0px 4px 0 #282828, 
-      0px 5px 0 #262626, 
-      0px 6px 0 #242424, 
-      0px 7px 0 #222, 
-      0px 8px 0 #202020, 
-      0px 9px 0 #1e1e1e, 
-      0px 10px 0 #1c1c1c, 
-      0px 11px 0 #1a1a1a, 
-      0px 12px 0 #181818, 
-      0px 13px 0 #161616, 
-      0px 14px 0 #141414, 
-      0px 15px 0 #121212,
-      2px 20px 5px rgba(0, 0, 0, 0.9),
-      5px 23px 5px rgba(0, 0, 0, 0.3),
-      8px 27px 8px rgba(0, 0, 0, 0.5),
-      8px 28px 35px rgba(0, 0, 0, 0.9);
+  text-shadow:
+    -1px -1px 1px #fff,
+    0 1px 0 #2e2e2e,
+    0 2px 0 #2c2c2c,
+    0 3px 0 #2a2a2a,
+    0 4px 0 #282828,
+    0 5px 0 #262626,
+    0 6px 0 #242424,
+    0 7px 0 #222,
+    0 8px 0 #202020,
+    0 9px 0 #1e1e1e,
+    0 10px 0 #1c1c1c,
+    0 11px 0 #1a1a1a,
+    0 12px 0 #181818,
+    0 13px 0 #161616,
+    0 14px 0 #141414,
+    0 15px 0 #121212,
+    2px 20px 5px rgba(0, 0, 0, 0.9),
+    5px 23px 5px rgba(0, 0, 0, 0.3),
+    8px 27px 8px rgba(0, 0, 0, 0.5),
+    8px 28px 35px rgba(0, 0, 0, 0.9);
 }
 
 main {
@@ -62,18 +62,18 @@ h2 {
   margin: 1.5rem auto;
   font-size: 3rem;
   color: #70869d;
-  text-shadow: 
-      -1px -1px 1px #ffffff, 
-      0px 1px 0 #2e2e2e, 
-      0px 1.5px 0 #2c2c2c, 
-      0px 2px 0 #2a2a2a, 
-      0px 2.5px 0 #282828, 
-      0px 3px 0 #262626, 
-      0px 3.5px 0 #242424, 
-      2px 7px 5px rgba(0, 0, 0, 0.9),
-      5px 10px 5px rgba(0, 0, 0, 0.3),
-      8px 15px 8px rgba(0, 0, 0, 0.5),
-      8px 16px 35px rgba(0, 0, 0, 0.9);
+  text-shadow:
+    -1px -1px 1px #fff,
+    0 1px 0 #2e2e2e,
+    0 1.5px 0 #2c2c2c,
+    0 2px 0 #2a2a2a,
+    0 2.5px 0 #282828,
+    0 3px 0 #262626,
+    0 3.5px 0 #242424,
+    2px 7px 5px rgba(0, 0, 0, 0.9),
+    5px 10px 5px rgba(0, 0, 0, 0.3),
+    8px 15px 8px rgba(0, 0, 0, 0.5),
+    8px 16px 35px rgba(0, 0, 0, 0.9);
 }
 
 .display .header {
@@ -90,8 +90,9 @@ input {
   margin: auto;
   border-radius: 50px;
   background-image: linear-gradient(to right bottom, #dadfe1, #a4b2bb);
-  box-shadow: 0px 2px 4px rgba(0,0,0,.4),
-    inset 2px 4px 4px rgba(255,255,255,.4);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.4),
+    inset 2px 4px 4px rgba(255, 255, 255, 0.4);
 }
 
 .button {
@@ -99,15 +100,17 @@ input {
   margin: 0.5rem;
   border-radius: 50px;
   color: #0d2f53;
-  box-shadow: inset 2px 4px 4px -2px rgba(255, 255, 255, .6),
-  0px 4px 4px rgba(0,0,0,.2);
-  background-image: linear-gradient(to right bottom, #dadfe1 ,#a4b2bb);
+  box-shadow:
+    inset 2px 4px 4px -2px rgba(255, 255, 255, 0.6),
+    0 4px 4px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right bottom, #dadfe1, #a4b2bb);
 }
 
 .button:hover {
-  background-image: linear-gradient(to right bottom, #a4b2bb ,#dadfe1);
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.1),
-    inset -2px -2px 4px rgba(255, 255,255, .4);
+  background-image: linear-gradient(to right bottom, #a4b2bb, #dadfe1);
+  box-shadow:
+    inset 2px 2px 4px rgba(0, 0, 0, 0.1),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.4);
 }
 
 .form .header {
@@ -123,9 +126,10 @@ ul {
   background: url(../img/wood-slats.jpg);
   background-size: 100% 362px;
   background-attachment: local;
-  box-shadow: 5px 5px 5px 0px #000000, 
-  inset 4px 4px 15px 0px #000000, 
-  5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow:
+    5px 5px 5px 0 #000,
+    inset 4px 4px 15px 0 #000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
   transition: all 0.5s linear;
 }
 
@@ -156,8 +160,9 @@ label {
 
 .text-input {
   font-family: 'Courgette', cursive;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),
-  inset 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow:
+    0 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .big-submit {
