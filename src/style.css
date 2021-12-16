@@ -172,6 +172,10 @@ small {
   align-self: flex-end;
 }
 
+.invisible {
+  display: none;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 3rem;
