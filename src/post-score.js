@@ -1,5 +1,7 @@
+import url from './url.js';
+
 const postScore = async (user, score) => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/IcHXit5dDPeCw71PNKqn/scores', {
+  const response = await fetch(url, {
     method: 'POST',
     body: JSON.stringify(
       {

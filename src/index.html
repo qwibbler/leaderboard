@@ -8,6 +8,11 @@
 
   <title>Leaderboard</title>
   <meta name="author" content="Humaira Zaman">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="index.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +24,7 @@
     <div class="display wrap">
       <div class="display header">
         <h2>Recent Scores</h2>
-        <input type="button" value="&#x21bb; Refresh" class="button refresh">
+        <div class="big-btn"><input type="button" value="&#x21bb; Refresh" class="button refresh"></div>
       </div>
       <ul class="display scores">
       </ul>
@@ -31,10 +36,10 @@
       </div>
       <form class="form input" action="?" method="post">
         <label for="player-name">Name:</label>
-        <input type="text" name="your-name" id="player-name" placeholder="Your name" required>
+        <input type="text" name="your-name" id="player-name" class="text-input" placeholder="Your name" required>
         <label for="player-score">Score:</label>
-        <input type="number" name="your-score" id="player-score" placeholder="Your score" required>
-        <input type="submit" value="Submit &#9094;" class="button submit">
+        <input type="number" name="your-score" id="player-score" class="text-input" placeholder="Your score" required>
+        <div class="big-btn big-submit"><input type="submit" value="Submit &#9094;" class="button submit"></div>
         <small></small>
       </form>
     </div>
